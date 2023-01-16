@@ -2,7 +2,6 @@
 
 ## Hi, I'm Nawaz Danish! 👋
 
-
 ## 🚀 About Me
 I'm a full stack developer with hands on experience in MongoDB, Express, React, and Node
 
@@ -12,6 +11,7 @@ I'm a full stack developer with hands on experience in MongoDB, Express, React, 
 2. Class Component
 3. Pure Component
 4. High-Order Component
+
 
 ## Hooks
 - learning src: https://www.youtube.com/playlist?list=PLC3y8-rFHvwisvxhZ135pogtX7_Oe3Q3A
@@ -39,6 +39,7 @@ I'm a full stack developer with hands on experience in MongoDB, Express, React, 
         componentDidMount()
 
     b. Updating
+    
         getDerivedStateFromProps()
 
         shouldComponentUpdate()
