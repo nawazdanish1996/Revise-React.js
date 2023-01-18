@@ -55,6 +55,52 @@ I'm a full stack developer with hands on experience in MongoDB, Express, React, 
         componentWillUnmount()
 
 
+## FAQ
+
+#### What is Component in React?
+A component is an independent, reusable bit of code which divides the UI into smaller pieces which we use as per our needed.
+
+#### What is Funcational Component in React?
+..
+
+#### What is Class Component in React?
+..
+
+#### What is Pure Component in React?
+..
+
+#### What is High-Order Component in React?
+..
+#### What are Hooks in React?
+React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects. React provides a bunch of standard in-built hooks like useState, useEffect etc.
+
+#### What is useState hook?
+..
+
+#### What is useEffect hook?
+..
+
+#### What is useContext hook?
+..
+
+#### What is useReducer hook?
+..
+
+#### What is useCallback hook?
+..
+
+#### What is useMemo hook?
+..
+#### What is useCallback hook?
+..
+
+#### What is customHook?
+..
+#### What is Life-Cycle method?
+
+Each component in React has a lifecycle which we can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.
+
+
 ## Feedback
 
 If you have any feedback, please reach out to us at contact.to.nd@gmail.com
