@@ -57,46 +57,53 @@ I'm a full stack developer with hands on experience in MongoDB, Express, React, 
 
 ## FAQ
 
-#### What is Component in React?
+#### 1. What is Component in React?
 A component is an independent, reusable bit of code which divides the UI into smaller pieces which we use as per our needed.
 
-#### What is Funcational Component in React?
-..
+#### 2. What are Funcational Component in React?
+A React functional component is a simple JavaScript function that accepts props and returns a React element.
 
-#### What is Class Component in React?
-..
+#### 3. What are Class Component in React?
+A class component is a JavaScript class that extends React. Component which has a render method.
 
-#### What is Pure Component in React?
-..
+#### 4. What are Pure Component in React?
+PureComponent is exactly the same as Component except that it handles the shouldComponentUpdate method.
 
-#### What is High-Order Component in React?
-..
-#### What are Hooks in React?
+When props or state changes, PureComponent will do a shallow comparison on both props and state.
+
+#### 5. What are High-Order Component in React?
+A Higher-Order Function takes a function as an argument and/or returns a function.
+
+React’s Higher Order Component is a pattern that stems from React’s nature that privileges composition over inheritance.
+#### 6. What are Hooks in React?
 React Hooks are simple JavaScript functions that we can use to isolate the reusable part from a functional component. Hooks can be stateful and can manage side-effects. React provides a bunch of standard in-built hooks like useState, useEffect etc.
 
-#### What is useState hook?
-..
+#### 7. What is useState hook?
+useState is one of the built-in React hooks. It allows you to track the state in a functional component in React. The term state refers to data or properties that need to be tracked. You need to pass the initial state inside the useState(), which returns variables with the state value and another function to update the current state of the variable.
 
-#### What is useEffect hook?
-..
+#### 8. What is useEffect hook?
+useEffect allows to manage side effects in your functional components in React. Here the term side effects refer to fetching requests, manipulating DOM, using timer functions and more.
+The useEffect accepts two arguments a callback function and dependencies. The callback function contains the side effects, while the dependencies are optional. If the value of the dependencies has changed between the rendering, then only useEffect() to execute the callback function.
 
-#### What is useContext hook?
-..
+#### 9. What is useContext hook?
+useContext hook makes it easy to pass data throughout your app without manually passing props down the tree.
 
-#### What is useReducer hook?
-..
+#### 10. What is useReducer hook?
+useReducer Hook is used to store and update states, just like the useState Hook. It accepts a reducer function as its first parameter and the initial state as the second.
 
-#### What is useCallback hook?
-..
+#### 11. What is useCallback hook?
+useCallback is one of the react hooks used to prevent functions declared within the body of function components from being recreated on every render.
 
-#### What is useMemo hook?
-..
-#### What is useCallback hook?
-..
+#### 12. What is useMemo hook?
+The useMemo hook is used to memoise an expensive operation that we give it. The term "memoise" refers to remembering past values that have already been computed.
+#### 13. What is useCallback hook?
+useCallback Hook returns a memoized callback function. Think of memoization as caching a value so that it does not need to be recalculated.
+#### 14. What is useRef hook?
+useRef allows to persist values between render. You can also use it to store a mutable value that does not cause a re-render when updated. You must pass the initial value inside the useRef, which returns a mutable ref object. The object has a property called "current", where the value is persisted.
 
-#### What is customHook?
-..
-#### What is Life-Cycle method?
+#### 15. What is customHook?
+Hooks are reusable functions. When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.
+#### 16. What is Life-Cycle method?
 
 Each component in React has a lifecycle which we can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.
 
