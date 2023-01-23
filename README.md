@@ -104,9 +104,27 @@ useRef allows to persist values between render. You can also use it to store a m
 #### 15. What is customHook?
 Hooks are reusable functions. When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.
 #### 16. What is Life-Cycle method?
+doc: https://www.w3schools.com/react/react_lifecycle.asp#:~:text=Each%20component%20in%20React%20has,Mounting%2C%20Updating%2C%20and%20Unmounting.
 
 Each component in React has a lifecycle which we can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting.
 
+#### 17. What is Super() in React component?
+Super() function is to call the constructor of the parent class. It is used when we need to access a few variables in the parent class. It returns an object which represents the parent class. The right way to use it is when the child class and parent class are from the same field.
+
+#### 18. componentDidMount
+The componentDidMount() method is called after the component is rendered.
+
+This is where you run statements that requires that the component is already placed in the DOM.
+
+#### 19. componentWillUnmount
+The componentWillUnmount method is called when the component is about to be removed from the DOM.
+
+#### 20. componentDidUpdate
+componentDidUpdate method is called after the component is updated in the DOM.
+
+#### 21. 
+#### 22. 
+#### 23. 
 
 ## Feedback
 
